@@ -11,7 +11,7 @@
     margin: auto;
 }
 
-#menuBar {
+.contentMenu {
     width: 100%;
     height: 78px;
     flex-shrink: 0;
@@ -37,7 +37,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 10px;
 }
 
 .navMenu {
@@ -61,7 +61,20 @@
     text-transform: uppercase;
 }
 
-#apresentacao {
+/* .side-nav {
+    width: 500px;
+    height: 100vh;
+
+    position: absolute;
+    z-index: 999999;
+
+    background: red;
+}
+
+.side-nav ul {
+} */
+
+.contentAp {
     width: 100%;
 
     display: flex;
@@ -136,7 +149,7 @@
     line-height: normal;
 }
 
-#gridInfo {
+.contentInfo {
     width: 100%;
 
     margin-top: 60px;
@@ -193,7 +206,7 @@
 
 .ultimaNews {
     width: 350px;
-    height: 400px;
+    height: 450px;
     flex-shrink: 0;
 
     display: flex;
@@ -201,7 +214,7 @@
     justify-content: center;
     gap: 10px;
 
-    padding: 17px;
+    padding: 20px;
 
     background: #F9F4F4;
 }
@@ -220,7 +233,8 @@
 .conteudoPost {
     display: flex;
     flex-direction: row;
-
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -248,7 +262,7 @@
     flex-direction: column;
     justify-content: center;
 
-    gap: 10px;
+    gap: 5px;
 }
 
 .ultimaNews h3 {
@@ -258,6 +272,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-top: 0;
 }
 
 .infoPost h3 {
@@ -267,6 +282,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0;
 }
 
 .infoPost span {
@@ -283,6 +299,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 10px;
 
     padding: 17px;
@@ -299,7 +316,7 @@
 }
 
 .data {
-    width: 50px;
+    width: 80px;
     height: 50px;
     display: flex;
     flex-direction: column;
@@ -314,6 +331,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin: 0;
 }
 
 .data span {
@@ -343,6 +361,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0;
 }
 
 .infoEvent p {
@@ -352,6 +371,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.calendar img {
+    width: 50px;
+    height: 50px;
+
 }
 
 .eventsPost {
@@ -364,7 +389,7 @@
     align-items: center;
     gap: 10px;
 
-    padding: 5px;
+    padding: 10px;
 
     background: #EAEAEA;
 }

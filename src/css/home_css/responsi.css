@@ -1,3 +1,93 @@
-@media screen {
-    
+@media (max-width: 910px) {
+    .content_geral {
+        max-width: 100%;
+    }
+
+    #menuBar {
+
+        .contentMenu {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .optionsMenu {
+            display: none;
+        }
+    }
+
+    #apresentacao {
+
+        .contentAp {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: center;
+        }
+
+        .optBar {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    #gridInfo {
+
+        .contentInfo {
+            display: grid;
+            grid-template-areas:
+                'A b'
+                'c c'
+            ;
+            justify-content: center;
+
+        }
+
+        .nextEvents {
+            width: 96%;
+        }
+
+        .eventsPost {
+            width: 100%;
+
+            justify-content: left;
+            background: rgb(234, 234, 234);
+            background: linear-gradient(90deg, rgba(234,234,234,1) 0%, rgba(234,234,234,1) 20%, rgba(234,234,234,0.4990371148459384) 100%);
+        }
+
+        .videoPost {
+            grid-area: A;
+        }
+
+        .ultimaNews {
+            grid-area: b;
+        }
+
+        .nextEvents {
+            grid-area: c;
+        }
+
+    }
+
+    #fotoPessoal {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .pessoalFoto {
+            max-width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    #cardDiretor {
+        .diretores {
+            gap: 30px;
+        }
+    }
+
+    footer {
+        max-width: 100%;
+    }
 }

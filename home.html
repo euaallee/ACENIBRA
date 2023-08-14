@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACENIBRA</title>
     <link rel="shortcut icon" href="src/imgs/logo_acenibra.png" type="image/x-icon">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="src/css/home_css/estilizacao.css">
     <link rel="stylesheet" href="src/css/home_css/responsi.css">
     <link rel="stylesheet" href="src/css/home_css/home.css">
@@ -14,155 +16,178 @@
 <body>
     <div class="content_geral">
         <section id="menuBar">
-            <div class="logo">
-                <img src="src/imgs/Rectangle 56.png" alt="" srcset="">
-            </div>
-            <div class="navMenu">
-                <div class="optionsMenu">
-                    <a href="#">Início</a>
-                    <a href="#">Eventos</a>
-                    <a href="#">Sobre nós</a>
-                    <a href="#">FAQ</a>
-                    <a href="#">Parceiros</a>
+            <nav>
+                <div class="contentMenu">
+                    <div class="logo">
+                        <img src="src/imgs/Rectangle 56.png" alt="" srcset="">
+                    </div>
+                    <div class="navMenu">
+                        <ul class="left optionsMenu">
+                            <li><a href="#">Início</a></li>
+                            <li><a href="#">Eventos</a></li>
+                            <li><a href="#">Sobre nós</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Parceiros</a></li>
+                        </ul>
+                        <div class="lupinha">
+                            <img src="src/imgs/search.png" alt="" srcset="">
+                        </div>
+                    </div>
                 </div>
-                <div class="lupinha">
-                    <img src="src/imgs/search.png" alt="" srcset="">
-                </div>
-            </div>
+            </nav>
         </section>
         <section id="apresentacao">
-            <div class="carcel">
-                <div class="dots">
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                            <circle cx="5" cy="5" r="5" fill="#857373" />
-                        </svg>
-                    </div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                            <circle cx="5" cy="5" r="5" fill="white" />
-                        </svg>
-                    </div>
-                    <div class="dot">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
-                            <circle cx="5" cy="5" r="5" fill="white" />
-                        </svg>
+            <div class="contentAp">
+                <div class="carcel">
+                    <div class="dots">
+                        <div class="dot">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                fill="none">
+                                <circle cx="5" cy="5" r="5" fill="#857373" />
+                            </svg>
+                        </div>
+                        <div class="dot">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                fill="none">
+                                <circle cx="5" cy="5" r="5" fill="white" />
+                            </svg>
+                        </div>
+                        <div class="dot">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                fill="none">
+                                <circle cx="5" cy="5" r="5" fill="white" />
+                            </svg>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="optBar">
-                <a href="http://">
-                    <button class="itemEvent btn btn-1 btn-sep">
-                        <img src="src/imgs/celebration.png" alt="">
-                        <h3>Eventos</h3>
-                    </button>
-                </a>
-                <a href="http://">
-                    <button class="itemEvent btn btn-1 btn-sep">
-                        <div style="width: 32px; height: 32px;"></div>
-                        <h3>Cultura</h3>
-                    </button>
-                </a>
-                <a href="http://">
-                    <button class="itemEvent btn btn-1 btn-sep">
-                        <img src="src/imgs/category.png" alt="">
-                        <h3>Atividades</h3>
-                    </button>
-                </a>
-                <a href="http://">
-                    <button class="itemEvent btn btn-1 btn-sep">
-                        <img src="src/imgs/people_alt.png" alt="">
-                        <h3>Seinenkai</h3>
-                    </button>
-                </a>
+                <div class="optBar">
+                    <a href="http://">
+                        <button class="itemEvent btn btn-1 btn-sep">
+                            <img src="src/imgs/celebration.png" alt="">
+                            <h3>Eventos</h3>
+                        </button>
+                    </a>
+                    <a href="http://">
+                        <button class="itemEvent btn btn-1 btn-sep">
+                            <div style="width: 32px; height: 32px;"></div>
+                            <h3>Cultura</h3>
+                        </button>
+                    </a>
+                    <a href="http://">
+                        <button class="itemEvent btn btn-1 btn-sep">
+                            <img src="src/imgs/category.png" alt="">
+                            <h3>Atividades</h3>
+                        </button>
+                    </a>
+                    <a href="http://">
+                        <button class="itemEvent btn btn-1 btn-sep">
+                            <img src="src/imgs/people_alt.png" alt="">
+                            <h3>Seinenkai</h3>
+                        </button>
+                    </a>
+                </div>
             </div>
         </section>
         <section id="gridInfo">
-            <div class="videoPost">
-                <h3>Vídeo posts</h3>
-                <img src="src/imgs/video-play.png" alt="">
-                <h3>Título legal</h3>
-                <p>Lorem ipsum dolor sit amet. Qui molestias voluptas et voluptas molestiae est veniam suscipit.</p>
-            </div>
-            <div class="ultimaNews">
-                <h3>Últimas notícias</h3>
-                <div class="posts">
-                    <div class="conteudoPost">
-                        <img src="src/imgs/tornei_sinuca.png" alt="">
-                        <div class="infoPost">
-                            <h3>Título post</h3>
-                            <p>Lorem ipsum dolor sit amet. Qui molestias voluptas</p>
-                            <span>3 semanas atrás</span>
+            <div class="contentInfo">
+                <div class="videoPost">
+                    <h3>Vídeo posts</h3>
+                    <img src="src/imgs/video-play.png" alt="">
+                    <h3>Título legal</h3>
+                    <p>Lorem ipsum dolor sit amet. Qui molestias voluptas et voluptas molestiae est veniam suscipit.</p>
+                </div>
+                <div class="ultimaNews">
+                    <h3>Últimas notícias</h3>
+                    <div class="posts">
+                        <div class="conteudoPost">
+                            <img src="src/imgs/tornei_sinuca.png" alt="">
+                            <div class="infoPost">
+                                <h3>Título post</h3>
+                                <p>Lorem ipsum dolor sit amet. Qui molestias voluptas</p>
+                                <span>3 semanas atrás</span>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="posts">
+                        <div class="conteudoPost">
+                            <img src="src/imgs/tornei_sinuca.png" alt="">
+                            <div class="infoPost">
+                                <h3>Título post</h3>
+                                <p>Lorem ipsum dolor sit amet. Qui molestias voluptas</p>
+                                <span>3 semanas atrás</span>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="posts">
+                        <div class="conteudoPost">
+                            <img src="src/imgs/tornei_sinuca.png" alt="">
+                            <div class="infoPost">
+                                <h3>Título post</h3>
+                                <p>Lorem ipsum dolor sit amet. Qui molestias voluptas</p>
+                                <span>3 semanas atrás</span>
+                            </div>
                         </div>
                     </div>
-                    <hr>
                 </div>
-                <div class="posts">
-                    <div class="conteudoPost">
-                        <img src="src/imgs/tornei_sinuca.png" alt="">
-                        <div class="infoPost">
+                <div class="nextEvents">
+                    <h3>Próximos eventos</h3>
+                    <div class="eventsPost">
+                        <div class="data">
+                            <h3>15</h3>
+                            <span>Março</span>
+                        </div>
+                        <hr>
+                        <div class="infoEvent">
                             <h3>Título post</h3>
                             <p>Lorem ipsum dolor sit amet. Qui molestias voluptas</p>
-                            <span>3 semanas atrás</span>
+                        </div>
+                        <div class="calendar">
+                            <img src="src/imgs/icons8-calendário.gif" alt="">
                         </div>
                     </div>
-                    <hr>
-                </div>
-                <div class="posts">
-                    <div class="conteudoPost">
-                        <img src="src/imgs/tornei_sinuca.png" alt="">
-                        <div class="infoPost">
+                    <div class="eventsPost">
+                        <div class="data">
+                            <h3>24</h3>
+                            <span>Março</span>
+                        </div>
+                        <hr>
+                        <div class="infoEvent">
                             <h3>Título post</h3>
                             <p>Lorem ipsum dolor sit amet. Qui molestias voluptas</p>
-                            <span>3 semanas atrás</span>
+                        </div>
+                        <div class="calendar">
+                            <img src="src/imgs/icons8-calendário.gif" alt="">
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="nextEvents">
-                <h3>Próximos eventos</h3>
-                <div class="eventsPost">
-                    <div class="data">
-                        <h3>15</h3>
-                        <span>Março</span>
+                    <div class="eventsPost">
+                        <div class="data">
+                            <h3>09</h3>
+                            <span>Abril</span>
+                        </div>
+                        <hr>
+                        <div class="infoEvent">
+                            <h3>Título post</h3>
+                            <p>Lorem ipsum dolor sit amet. Qui molestias voluptas</p>
+                        </div>
+                        <div class="calendar">
+                            <img src="src/imgs/icons8-calendário.gif" alt="">
+                        </div>
                     </div>
-                    <hr>
-                    <div class="infoEvent">
-                        <h3>Título post</h3>
-                        <p>Lorem ipsum dolor sit amet. Qui molestias voluptas</p>
-                    </div>
-                </div>
-                <div class="eventsPost">
-                    <div class="data">
-                        <h3>24</h3>
-                        <span>Março</span>
-                    </div>
-                    <hr>
-                    <div class="infoEvent">
-                        <h3>Título post</h3>
-                        <p>Lorem ipsum dolor sit amet. Qui molestias voluptas</p>
-                    </div>
-                </div>
-                <div class="eventsPost">
-                    <div class="data">
-                        <h3>09</h3>
-                        <span>Abril</span>
-                    </div>
-                    <hr>
-                    <div class="infoEvent">
-                        <h3>Título post</h3>
-                        <p>Lorem ipsum dolor sit amet. Qui molestias voluptas</p>
-                    </div>
-                </div>
-                <div class="eventsPost">
-                    <div class="data">
-                        <h3>21</h3>
-                        <span>Junho</span>
-                    </div>
-                    <hr>
-                    <div class="infoEvent">
-                        <h3>Título post</h3>
-                        <p>Lorem ipsum dolor sit amet. Qui molestias voluptas</p>
+                    <div class="eventsPost">
+                        <div class="data">
+                            <h3>21</h3>
+                            <span>Junho</span>
+                        </div>
+                        <hr>
+                        <div class="infoEvent">
+                            <h3>Título post</h3>
+                            <p>Lorem ipsum dolor sit amet. Qui molestias voluptas</p>
+                        </div>
+                        <div class="calendar">
+                            <img src="src/imgs/icons8-calendário.gif" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -237,6 +262,8 @@
 
         </footer>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>
