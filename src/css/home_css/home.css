@@ -21,7 +21,7 @@
     justify-content: space-around;
     align-items: center;
 
-    background: #FFF;
+    background: #fff;
 }
 
 .logo img {
@@ -94,7 +94,7 @@
     justify-content: center;
     align-items: center;
 
-    background: #D9D9D9;
+    background: #d9d9d9;
 }
 
 .dots {
@@ -137,7 +137,7 @@
     padding-left: 24px;
 
     border-radius: 12px;
-    background: #D9D9D9;
+    background: #d9d9d9;
 }
 
 .itemEvent h3 {
@@ -164,7 +164,6 @@
     width: 350px;
     height: 400px;
     flex-shrink: 0;
-
 
     display: flex;
     flex-direction: column;
@@ -216,7 +215,7 @@
 
     padding: 20px;
 
-    background: #F9F4F4;
+    background: #dbdada;
 }
 
 .posts hr {
@@ -242,8 +241,6 @@
     width: 100px;
     height: 100px;
     flex-shrink: 0;
-
-
 }
 
 .posts {
@@ -254,7 +251,6 @@
     align-items: center;
 
     gap: 10px;
-
 }
 
 .infoPost {
@@ -303,7 +299,6 @@
     gap: 10px;
 
     padding: 17px;
-
 }
 
 .nextEvents h3 {
@@ -325,7 +320,7 @@
 }
 
 .data h3 {
-    color: #F60304;
+    color: #f60304;
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
@@ -335,7 +330,7 @@
 }
 
 .data span {
-    color: #3E3B3B;
+    color: #3e3b3b;
     font-family: Roboto;
     font-size: 1rem;
     font-style: normal;
@@ -376,7 +371,6 @@
 .calendar img {
     width: 50px;
     height: 50px;
-
 }
 
 .eventsPost {
@@ -391,12 +385,11 @@
 
     padding: 10px;
 
-    background: #EAEAEA;
+    background: #eaeaea;
 }
 
 #fotoPessoal {
     width: 100%;
-
 }
 
 .pessoalFoto {
@@ -409,13 +402,11 @@
     align-items: center;
     margin-top: 60px;
 
-    background: #D9D9D9;
+    background: #d9d9d9;
 }
 
 #cardDiretor {
     width: 100%;
-
-
 }
 
 .direcao {
@@ -432,7 +423,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 10px;
 }
 
 .groupDiretores {
@@ -448,7 +439,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 95px;
+    align-items: center;
+    gap: 35px;
 
 }
 
@@ -479,45 +471,6 @@
     background: #b9b9b9;
 }
 
-.nextprov {
-    width: 100%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
-
-.leftButton {
-    width: 50px;
-    height: 50px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 50%;
-    background: #b9b9b9;
-
-}
-
-.rightButton {
-    width: 50px;
-    height: 50px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 50%;
-    background: #b9b9b9;
-
-}
-
 footer {
     width: 100%;
     height: 179px;
@@ -529,5 +482,5 @@ footer {
     align-items: center;
     margin-top: 60px;
 
-    background: #ADA6A6;
+    background: #ada6a6;
 }

@@ -4,7 +4,6 @@
     }
 
     #menuBar {
-
         .contentMenu {
             justify-content: center;
             align-items: center;
@@ -16,7 +15,6 @@
     }
 
     #apresentacao {
-
         .contentAp {
             display: flex;
             flex-direction: column;
@@ -31,19 +29,17 @@
     }
 
     #gridInfo {
-
         .contentInfo {
             display: grid;
             grid-template-areas:
-                'A b'
-                'c c'
-            ;
+                "A b"
+                "c c";
             justify-content: center;
-
+            align-items: center;
         }
 
         .nextEvents {
-            width: 96%;
+            width: 100%;
         }
 
         .eventsPost {
@@ -51,7 +47,14 @@
 
             justify-content: left;
             background: rgb(234, 234, 234);
-            background: linear-gradient(90deg, rgba(234,234,234,1) 0%, rgba(234,234,234,1) 20%, rgba(234,234,234,0.4990371148459384) 100%);
+            background: linear-gradient(90deg,
+                    rgba(234, 234, 234, 1) 0%,
+                    rgba(234, 234, 234, 1) 20%,
+                    rgba(234, 234, 234, 0.4990371148459384) 100%);
+        }
+
+        .calendar img {
+            margin-left: 260px;
         }
 
         .videoPost {
@@ -65,11 +68,9 @@
         .nextEvents {
             grid-area: c;
         }
-
     }
 
     #fotoPessoal {
-
         display: flex;
         justify-content: center;
         align-items: center;
@@ -89,5 +90,66 @@
 
     footer {
         max-width: 100%;
+    }
+}
+
+@media (max-width: 810px) {
+    #apresentacao {
+        .carcel {
+            max-width: 100%;
+        }
+
+        .optBar {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .itemEvent {
+            max-width: 100%;
+            justify-content: center;
+        }
+    }
+
+    #gridInfo {
+        .contentInfo {
+            width: 100%;
+
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 35px;
+        }
+
+        .videoPost {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ultimaNews {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .nextEvents {
+            width: 350px;
+            height: 400px;
+            flex-shrink: 0;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            padding: 17px;
+        }
+
+        .calendar img {
+            margin: 0;
+        }
     }
 }
