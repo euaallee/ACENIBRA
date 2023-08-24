@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $('.diretores').owlCarousel({
+    $('.rodarCarr').owlCarousel({
         loop:true,
         margin:10,
         nav:true,
@@ -15,6 +15,6 @@ $(document).ready(function () {
                 items:5
             }
         }
-    })
+    });
 
 });
