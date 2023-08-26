@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.content_geral {
+    width: 100%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menuBar {
+    width: 100%;
+    height: 78px;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background: #FFF;
+}
+
+.logo img {
+    width: 80px;
+    height: 56px;
+    flex-shrink: 0;
+}
+
+.optionsMenu {
+    width: 550px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navMenu {
+    width: 70vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.navMenu a {
+    color: #000;
+    font-family: Nunito;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* ================== COLOQUE O CODIGO AQUI =====================*/
+
+.container{
+    width: 1224px;
+    margin: auto;
+}
+.inforPrincipal .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    background: #31932C;
+    width:1224px;
+    height: 88px;
+    color:#FFF;
+}
+
+ h1 {
+    font-size: 48px;
+} 
+
+.inforPrincipal .p-texto{
+    margin: auto;
+    text-align: center;
+    width: 1159px;
+    font-size: 20px;
+    padding-top: 16px;
+}
+
+/*eventos*/
+.eventos h2{
+    padding-top:50px;
+    width: 272px;
+    margin: auto;
+}
+
+.eventos .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.cards .card_ind{
+    width: 266px;
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+} 
+
+.cards .card_ind img{
+    padding: 16px;
+}
+
+.cards .card_ind p{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.cards .card_ind .title-card{
+    font-size: 24px;
+    font-weight: 600;
+}
+.cards .card_ind .data-card{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/* informativo */
+
+.informativo {
+    padding-top: 117px;
+    position: relative;
+}
+
+.informativo .box-color{
+    width: 288px;
+    height: 460px;
+    margin: auto;
+    background: rgba(49, 147, 44, 0.80);
+}
+
+.informativo .box-texto-img{
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: absolute;
+    top: 25%;
+    
+    left:18%;
+}
+
+.informativo .box-texto{
+    width: 395px;
+
+    text-align: center;  
+    align-self: center;
+    padding-right: 14px;
+
+    font-family: 'Nunito', 'sans-serif';
+}
+.informativo .box-texto h3{
+    padding-bottom:14px ;
+    font-size: 32px;
+}
+
+.informativo .box-texto p{
+    font-size: 20px;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+/* Atividades */
+
+.atividade{
+    padding-top: 32px;
+}
+.atividade h3{
+    font-size: 28px;
+}
+.atividade .box-atv{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 22px;
+
+    font-family: 'Nunito', 'sans-serif';
+    font-weight: 600;
+    width: 840px;
+    text-align: center;
+}
+
+
+
+.container-grupo{
+    position: relative;
+    height: 600px;
+    margin-bottom: 84px;
+ 
+}
+
+
+.container-grupo .box-color-grupo{
+    background: #5AA956;
+    width: 1018px;
+    height: 260px;
+    margin:auto;
+
+    
+   
+}
+.container-grupo .sub-grupo {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    position: absolute;
+    left: 4.2%;
+    top:10%;
+}
+
+.container-grupo .sub-grupo .box-color-cinza{
+    width: 312px;
+    height: 418px;
+    background: #EDECEC;
+    margin-top: 46px;
+    
+}
+
+.container-grupo .sub-grupo .box-img-p p{
+    width: 392px;
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: 'Roboto', 'sans serif';
+    font-size: 20px;    
+}
+
+/* ==============================================================*/
+
+
+footer {
+    width: 100%;
+    height: 179px;
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+    background: #ADA6A6;
+    
+}
+
+
